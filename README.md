@@ -1,7 +1,6 @@
 <p><img src="https://www.rug.nl/about-ug/practical-matters/huisstijl/logobank-new/corporatelogo/corporatelogorood/rugr_logonl_rood_rgb.png" width="200" alt="rug logo"></p>
 
-# Analyzing Data
-## A Practical Guide
+# Analyzing Data - A Practical Guide
 <p>By <a href="https://www.linkedin.com/in/jmperafan/">Juan Manuel Perafan</a></>
 
 ---
