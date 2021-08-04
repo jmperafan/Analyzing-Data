@@ -1,6 +1,7 @@
 <p><img src="https://www.rug.nl/about-ug/practical-matters/huisstijl/logobank-new/corporatelogo/corporatelogorood/rugr_logonl_rood_rgb.png" width="200" alt="rug logo"></p>
 
 # Analyzing Data - A Practical Guide
+<img src="https://img.shields.io/badge/academic%20year-2021--2022-red">
 <p>By <a href="https://www.linkedin.com/in/jmperafan/">Juan Manuel Perafan</a></>
 
 ---
