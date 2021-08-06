@@ -57,10 +57,12 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>05 Oct - Cleaning & Transforming Data</summary>
   
   ### Description
-  ...
+  Cleaning and transforming data is an essential part of any analysis. During this session we will discuss what is "tidy data" and we will practice some of the common data cleaning steps (filters, pivoting, selecting columns) in [Tableau](https://www.tableau.com/).
 
   ### Learning Goals
-  ...
+  * Learn the principles of tidy data.
+  * Be familiar with some of the most common data transformations.
+  * Practice cleaning data and using formulas in [Tableau](https://www.tableau.com/).
 </details>
 
 <details>
@@ -70,7 +72,8 @@ Combining theory and practice, this course will teach you the basics of analyzin
   ...
 
   ### Learning Goals
-  ...
+  * Exposure to some of the most techniques to explore data.
+  * Practice EDA with [Tableau](https://www.tableau.com/).
 </details>
 
 <details>
