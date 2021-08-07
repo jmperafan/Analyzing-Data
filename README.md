@@ -14,6 +14,8 @@ In this course, you will learn how to:
 
 As your final assignment, you will build an infographic or dashboard with [Tableau](https://www.tableau.com/), using a dataset of your choice.
 
+<img src="https://cdns.tblsft.com/sites/default/files/image_2_0.png" alt="tableau dashboard">
+
 ---
 
 ### **Description**
@@ -32,12 +34,12 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>21 Sep - Introduction to Analytics</summary>
 
   ### Description
-  This is the introduction of this course. Regardless of this course name, this session will set the theoretical basis for the session to come. By the end, every student should have a shared understanding of data concepts (e.g. analytics) and some of the common challenges that organizations face (e.g. lack of data literacy, data quality issues). Additionally, we will introduce [Tableau](https://www.tableau.com/) and explain the final assignment. 
+  This session will set the theoretical basis for the session to come. By the end, every student should have a shared understanding of data concepts (e.g. analytics) and some of the common challenges that organizations face (e.g. lack of data literacy, data quality issues). Additionally, we will introduce [Tableau](https://www.tableau.com/) and explain the final assignment. 
   ### Learning Goals
-  * Gain of conceptual understanding of data and analytics.
+  * Gain a conceptual understanding of data and analytics.
   * Learn the most common career paths for data professionals.
   * Be exposed to some of the common data challenges in organizations.
-  * Become acquainted with [Tableau](https://www.tableau.com/) and where it fits in the data ecosystem.
+  * Become acquainted with [Tableau](https://www.tableau.com/).
 </details>
 
 
@@ -45,10 +47,10 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>28 Sep - Storing & Extracting Data</summary>
   
   ### Description
-  Storing and extracting data is generally overlooked as a not very sexy topic. But the truth is that data is rarely delivered to you in a platter, you need to go find it. This course we will compare different types of datasources (e.g. data lakes, data warehouses, APIs). In the end, students will get to practice extracting data from different data sources using [Tableau](https://www.tableau.com/). 
-
+  Storing and extracting data is generally overlooked. It is not very sexy topic. But the truth is that data is rarely delivered to you in a golden platter. You need to go and find it. In this session, we will compare different types of datasources (e.g. data lakes, data warehouses, APIs). In the end, students will get to practice extracting data from different data sources using [Tableau](https://www.tableau.com/).
+  
   ### Learning Goals
-  * Exposure to the most common data storage ecosystems (e.g. databases, spreadsheets, data lakes).
+  * Exposure to the most common data storage ecosystems.
   * Learn the most common challenges around ingestion, storage, and extraction of data. 
   * Practice loading different types of datasources in [Tableau](https://www.tableau.com/). 
 </details>
@@ -57,11 +59,11 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>05 Oct - Cleaning & Transforming Data</summary>
   
   ### Description
-  Cleaning and transforming data is an essential part of any analysis. During this session we will discuss what is "tidy data" and we will practice some of the common data cleaning steps (filters, pivoting, selecting columns) in [Tableau](https://www.tableau.com/).
+  Cleaning and transforming data is an essential part of any analysis. During this session we will discuss "tidy data" principles and practice some of the common data cleaning steps (e.g. filters, pivoting, selecting columns) in [Tableau](https://www.tableau.com/).
 
   ### Learning Goals
   * Learn the principles of tidy data.
-  * Be familiar with some of the most common data transformations.
+  * Be familiar with some common data transformations.
   * Practice cleaning data and using formulas in [Tableau](https://www.tableau.com/).
 </details>
 
@@ -69,10 +71,10 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>12 Oct - Exploring & Analyzing Data</summary>
   
   ### Description
-  ...
+  How can you extract information from a dataset? Is it always like looking for a needle in a haystack? In this session, we will explore some techniques and features that allow you to systematically explore a dataset.
 
   ### Learning Goals
-  * Exposure to some of the most techniques to explore data.
+  * Exposure to some techniques to explore data.
   * Practice EDA with [Tableau](https://www.tableau.com/).
 </details>
 
@@ -80,18 +82,18 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>19 Oct - Visualizing & Presenting Data</summary>
   
   ### Description
-  ...
+  Presenting findings is an essential part of the role of an analyst. And what better way than creating appeleing graphs to explain your findings. In this course, we will practice the basics of data storytelling and creating appealing visuals.
 
   ### Learning Goals
-  ...
+  * Explore common visualization types.
+  * Learn how to format visuals using [Tableau](https://www.tableau.com/).
+  * Grasp the basics of Data Storytelling.
 </details>
 
 <details>
   <summary>26 Oct - Presenting Final Assignments</summary>
   
   ### Description
-  ...
-
-  ### Learning Goals
-  ...
+  On this session, every student will present their dashboard/infographic to the rest of the class. 
+  
 </details>
