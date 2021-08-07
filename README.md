@@ -12,8 +12,6 @@ In this course, you will learn how to:
 * Systematically extract insights from data.
 * Create visualizations to present your work.
 
-As your final assignment, you will build an infographic or dashboard with [Tableau](https://www.tableau.com/), using a dataset of your choice.
-
 <img src="https://cdns.tblsft.com/sites/default/files/image_2_0.png" alt="tableau dashboard">
 
 ---
@@ -95,5 +93,36 @@ Combining theory and practice, this course will teach you the basics of analyzin
   
   ### Description
   On this session, every student will present their dashboard/infographic to the rest of the class. 
+  
+</details>
+
+---
+
+### **Final Assignment**
+For your final assignment, you will need to create a dashboard or infographic. Did I mention already there is a prize for the best assignment?
+
+<details>
+  <summary>Dataset</summary>
+  
+  For this project, you are allowed to use **ANY** dataset you want. Get creative. Need inspiration? Here are some ideas:
+  
+  1. **Make it personal**: Websites like Netflix, Facebook, LinkedIn, YouTube, and Google allow you to extract your own data.
+
+  2. **Collect the data yourself**: Measure things like your daily commute, the time you spent at the ACLO, how much beer you drank. 
+
+  3. **Use public data**: Pages like [MakeOverMonday](https://www.makeovermonday.co.uk/) or [Maven Analytics](https://www.mavenanalytics.io/data-playground) contain hundreds of datasets suitable for visualizing. 
+  
+</details>
+
+<details>
+  <summary>Guidelines</summary>
+  
+  To determine who is the best, each assignment will be rated in these categories (in alphabetical order):
+
+  * Aesthetics: Does it look good? Is the design pleasant to the eye.
+  * Complexity: Did you try using advanced features?
+  * Creativity: Is your work truly unique?
+  * Maintanability: Is it clean and well-documented? 
+  * Robustness: Will this still work in some months from now? 
   
 </details>
