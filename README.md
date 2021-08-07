@@ -19,7 +19,7 @@ In this course, you will learn how to:
 ### **Description**
 Regardless of your major, learning how to analyze data is worthwhile investment. 
 
-Being data-savvy and able to design production-ready graphics is a wonderful way to cause an impression on your professors, thesis supervisors, and internship mentors. 
+Being data-savvy and able to design production-ready graphics is a wonderful way to leave an impression on your professors, thesis supervisors, and internship mentors. 
 
 It gets even better: **Anyone can become an analyst**. The only requirements are a set of technical skills and a theoretical understanding of the challenges you face. 
 
@@ -32,7 +32,7 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>21 Sep - Introduction to Analytics</summary>
 
   ### Description
-  This session will set the theoretical basis for the session to come. By the end, every student should have a shared understanding of data concepts (e.g. analytics) and some of the common challenges that organizations face (e.g. lack of data literacy, data quality issues). Additionally, we will introduce [Tableau](https://www.tableau.com/) and explain the final assignment. 
+  This session will set the theoretical basis for the session to come. By the end, every student should have an understanding of data concepts (e.g. analytics) and some of the common challenges that organizations face (e.g. lack of data literacy, data quality issues). Additionally, we will introduce [Tableau](https://www.tableau.com/) and explain the final assignment. 
   ### Learning Goals
   * Gain a conceptual understanding of data and analytics.
   * Learn the most common career paths for data professionals.
@@ -45,7 +45,7 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>28 Sep - Storing & Extracting Data</summary>
   
   ### Description
-  Storing and extracting data is generally overlooked. It is not very sexy topic. But the truth is that data is rarely delivered to you in a golden platter. You need to go and find it. In this session, we will compare different types of datasources (e.g. data lakes, data warehouses, APIs). In the end, students will get to practice extracting data from different data sources using [Tableau](https://www.tableau.com/).
+  Storing and extracting data is generally overlooked. It is not a very sexy topic. But the truth is that data is rarely delivered to you on a golden platter. You need to go and find it. In this session, we will compare different types of datasources (e.g. data lakes, data warehouses, APIs). In the end, students will get to practice extracting data from different data sources using [Tableau](https://www.tableau.com/).
   
   ### Learning Goals
   * Exposure to the most common data storage ecosystems.
@@ -80,7 +80,7 @@ Combining theory and practice, this course will teach you the basics of analyzin
   <summary>19 Oct - Visualizing & Presenting Data</summary>
   
   ### Description
-  Presenting findings is an essential part of the role of an analyst. And what better way than creating appeleing graphs to explain your findings. In this course, we will practice the basics of data storytelling and creating appealing visuals.
+  Presenting findings is an essential part of the role of an analyst. And what better way than creating graphs to explain your findings. In this course, we will practice the basics of data storytelling and creating appealing visuals.
 
   ### Learning Goals
   * Explore common visualization types.
@@ -119,7 +119,7 @@ For your final assignment, you will need to create a dashboard or infographic. D
   
   To determine who is the best, each assignment will be rated in these categories (in alphabetical order):
 
-  * Aesthetics: Does it look good? Is the design pleasant to the eye.
+  * Aesthetics: Does it look good? Is the design pleasant to the eye?
   * Complexity: Did you try using advanced features?
   * Creativity: Is your work truly unique?
   * Maintanability: Is it clean and well-documented? 
