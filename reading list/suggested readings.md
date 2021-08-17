@@ -20,7 +20,7 @@ Here are some other options:
 * [The Functional Art](https://www.bol.com/nl/nl/f/the-functional-art/9200000033674731/) - €21.
 
 ### **Suggested Courses: Analytics**
-* [Google Data Analytics Professional](https://www.coursera.org/professional-certificates/google-data-analytics) - $39 per month.
+* [Google Data Analytics Professional](https://www.coursera.org/professional-certificates/google-data-analytics) - $39 p/m.
 * [Maven Analytics](https://www.mavenanalytics.io/courses-learning-paths?view=courses) - $39 p/m.
 * [DataCamp](https://www.datacamp.com/) - €21 p/m.
 * [Data Science A-Z](https://www.udemy.com/course/datascience/) - €12.
@@ -28,3 +28,4 @@ Here are some other options:
 ### **Suggested Courses: Tableau**
 * [Tableau eLearning](https://www.tableau.com/learn/training/elearning) - Free.
 * [Tableau Training Videos](https://www.tableau.com/learn/training/) - Free.
+* [Tableau Magic](https://tableau.toanhoang.com/) - Free.
