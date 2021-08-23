@@ -1,1 +1,5 @@
+# No need to track datasets
 datasets/*
+
+# This folder just contains information to export the slides
+.vscode/*
