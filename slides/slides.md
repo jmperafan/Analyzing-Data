@@ -7,6 +7,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.jpg')
 marp: true
 
 ---
+
 # **Analyzing Data**
 ### A Practical Guide
 
@@ -15,14 +16,18 @@ marp: true
 github.com/jmperafan/analyzing-data
 
 ---
+
 <!-- header: 'Sep 21 - Introduction to Analytics' -->
 # **Introduction to Analytics**
+
+### Learning objectives
 - Gain a conceptual understanding of data and analytics.
 - Learn the most common career paths for data professionals.
 - Be exposed to some of the common data challenges in organizations.
 - Become acquainted with [Tableau](https://www.tableau.com/).
 
 ---
+
 # **What is Analytics?**
 
 ![bg left](https://lh3.googleusercontent.com/MzcojAroNPS2Uno2E73nbUoKULgrVW6UbAyJvQOpwtHKAqnrfo9krb1SS8WAYkqw5pmzAlI1EurwSyg1H8Yev8zmvdNostmUwBGL=s2500)
@@ -35,6 +40,7 @@ Systematic computational analysis of data used for the:
 of *meaningful* patterns in data.
 
 ---
+
 # **What is data?**
 
 Information in binary digital form. 
@@ -43,15 +49,28 @@ Information in binary digital form.
 ![bg right](https://repository-images.githubusercontent.com/189982674/1639be00-dbe8-11ea-9ccb-50f536b433b2)
 
 ---
-<!-- No completed -->
+
+<!-- 
+    Discussion Exercise:
+    The objective of this exercise is to ask students to reflect on their digital footprint and be exposed to some of the most common data problem that companies face.
+-->
+
+# **Go Full Stalker**
+![bg left](https://miro.medium.com/max/1400/1*Wa9c49hXvSQOUdGCMG0rBA.png)
+
+Imagine your objective is to create a digital trail of somebody's day. Make it at detailed as possible. Your exercise now is to think:
+
+1. What type of data could you collect?
+2. What problems would you run into?
+
+---
+
+<!-- Not completed -->
 # **Data Jobs**
-![bg](/slides/diagrams/data_jobs.svg)
+![w:32 h:32](/slides/diagrams/data_jobs.png)
 
 ---
-<!-- No completed -->
-# **Common Data Challenges**
 
----
 # **What is Tableau?**
 ![bg right](https://cdnl.tblsft.com/sites/default/files/pages/platform-3-800x5002x_1.jpg)
 
@@ -61,17 +80,20 @@ Tableau helps people see and understand data.
 - Very easy to learn.
 
 ---
-<!-- No completed -->
+
+<!-- Not completed -->
 # **About this course**
 Here is what you should know about the course:
 
 1. Everything is on Github.
 2. We will be using Tableau.
+3. There is a final assignment.
 
 ---
 
 <!-- header: '28 Sep - Storing & Extracting Data' -->
 # **Storing & Extracting Data**
+### Learning objectives
 - Exposure to the most common data storage ecosystems.
 - Learn the most common challenges around ingestion, storage, and extraction of data.
 - Practice loading different types of datasources in Tableau.
