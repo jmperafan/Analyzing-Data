@@ -97,3 +97,101 @@ Here is what you should know about the course:
 - Exposure to the most common data storage ecosystems.
 - Learn the most common challenges around ingestion, storage, and extraction of data.
 - Practice loading different types of datasources in Tableau.
+
+---
+
+# **Data Trends**
+![bg fit right](https://i.redd.it/fqii2tufdgwz.jpg)
+
+Back in 70's, when the first databases were invented, storing data was absurdly expensive. 
+
+That has changed and consequently we are capturing exponential amounts of data.
+
+---
+
+# **Where is the data?**
+![bg left](https://www.talk-business.co.uk/wp-content/uploads/2015/02/shutterstock_300344546.jpg)
+
+Data is generally scattered:
+- `Flat files`
+- `Databases`
+- `Data Warehouses`
+- `Data Lakes`
+- `Source systems`
+- `APIs`
+
+---
+
+# **Flat Files**
+![bg right](https://www.weirdgeek.com/wp-content/uploads/2018/12/Reading-Most-Common-File-Formats-in-Data-Science.png)
+
+Common formats include `.csv`, `.txt`, `.xlsx`, `.json`, `xml`, `.avro`, `.parquet`. 
+
+
+\+ Flexibility.
+\- Collaboration.
+\- Security.
+\- Scalability.
+
+---
+
+# **Databases**
+![bg right](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/MediaWiki_1.28.0_database_schema.svg/1200px-MediaWiki_1.28.0_database_schema.svg.png)
+
+Databases are an attempt to professionalize data storage. They are composed of spreadsheet-like tables that are related to each other. 
+
+\+ Collaboration.
+\+ Security.
+\- Flexiblity.
+\- Scalability.
+\- Tabular.
+
+---
+
+# **Data Warehouse**
+![bg right](https://miro.medium.com/max/878/0*OU8MGyXkSlZvHHr7.)
+
+Data warehouse look and feel like a database. But they are optimized for analytics (instead of powering an application).
+
+\+ Collaboration.
+\+ Security.
+\+ Scalability.
+\- Flexibility.
+\- Tabular.
+
+---
+
+# **Data Lake**
+![bg right](https://d1.awsstatic.com/Data%20Lake/what-is-a-data-lake.c3917cc3e6af77037a814c5aeb7cec1de7f89eb9.PNG)
+
+Data lakes are a cheaper, more flexible of data warehouses. Data doesn't need to be tabular or relational anymore. But it can get messy.
+
+\+ Collaboration.
+\+ Scalability.
+\+ Flexibility.
+\- Order.
+
+---
+
+# **Source Systems**
+![bg right](https://2s7gjr373w3x22jf92z99mgm5w-wpengine.netdna-ssl.com/wp-content/uploads/2020/09/FiveTran.png)
+
+Source system is any system that captures data. You generally don't want it to live here.
+
+\- Flexibility.
+\- Centralization.
+
+---
+
+# **APIs**
+
+![bg right](https://www.seobility.net/en/wiki/images/f/f1/Rest-API.png)
+
+APIs can be used as a secure interface to allow anybody to query data.
+
+\+ Automation.
+\+ Security.
+
+---
+
+<!-- header: '28 Sep - Storing & Extracting Data' -->
