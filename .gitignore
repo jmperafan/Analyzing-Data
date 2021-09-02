@@ -3,3 +3,4 @@ datasets/*
 
 # This folder just contains information to export the slides
 .vscode/*
+.DS_Store
