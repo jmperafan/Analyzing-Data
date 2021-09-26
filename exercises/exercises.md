@@ -25,7 +25,7 @@ Introduce yourself:
 Imagine your objective is to create a digital trail of somebody's day. Make it at detailed as possible. Your exercise now is to think:
 
 - What type of data could you collect?
-- What problems would you run into?Go Full Stalker
+- What problems would you run into?
 
 ### **1.2 Create KPI's**
 Choose any organization and imagine you work as a dataprofessional for them. Your objective is to:
@@ -49,7 +49,7 @@ Imagine your organization wants to store operational data in a spreadsheet (e.g.
 
 ### **2.1 Types Flat Files**
 
-1. Google the differences between a `csv file`, a `JSON file`, and a `xml file`. 
+1. Google the differences between a `csv file`, a `JSON file`, and a `parquet file`. 
 
 2. Copy the text below into `Notepad` and save it as `cars.csv`
 
