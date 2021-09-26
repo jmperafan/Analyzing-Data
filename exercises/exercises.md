@@ -15,6 +15,12 @@ This document contains every exercise we will be conducting during the lectures.
 <details>
   <summary><h2>Lecture 1</h2></summary>
 
+### **1.0 Introduction**
+Introduce yourself:
+- Name
+- Study
+- What do you expect from this course?
+
 ### **1.1 Go Full Stalker**
 Imagine your objective is to create a digital trail of somebody's day. Make it at detailed as possible. Your exercise now is to think:
 
@@ -37,6 +43,9 @@ Using your input for the previous exercise, your task is:
 
 <details>
   <summary><h2>Lecture 2</h2></summary>
+
+### **2.0 Spreadsheet Galore**
+Imagine your organization wants to store operational data in a spreadsheet (e.g. Excel). Do you think this is a good idea or not?
 
 ### **2.1 Types Flat Files**
 
