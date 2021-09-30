@@ -18,6 +18,7 @@ Here are some other options:
 * [R for Data Science](https://r4ds.had.co.nz/index.html) - Free.
 * [Python for Data Analysis](https://www.bol.com/nl/nl/p/python-for-data-analysis-2e/9200000065680008/) - €41.
 * [The Functional Art](https://www.bol.com/nl/nl/f/the-functional-art/9200000033674731/) - €21.
+* [Data Democratization Whitepaper](https://godatadriven.com/topic/data-democratization-whitepaper) - Free.
 
 ### **Suggested Courses: Analytics**
 * [Google Data Analytics Professional](https://www.coursera.org/professional-certificates/google-data-analytics) - $39 p/m.
