@@ -13,28 +13,32 @@ This document contains every exercise we will be conducting during the lectures.
 ---
 
 <details>
-  <summary><h2>Lecture 1</h2></summary>
+  <summary>Lecture 1</summary>
 
 ### **1.0 Introduction**
 Introduce yourself:
-- Name
-- Study
+- Name.
+- Study.
 - What do you expect from this course?
 
 ### **1.1 Go Full Stalker**
 Imagine your objective is to create a digital trail of somebody's day. Make it at detailed as possible. Your exercise now is to think:
 
 - What type of data could you collect?
-- What problems would you run into?
+- What practical problems would you run into? 
 
 ### **1.2 Create KPI's**
-Choose any organization and imagine you work as a dataprofessional for them. Your objective is to:
+Choose any organization and imagine you work for them. Your objective is to:
 
-- Think about possible KPI's.
+- Think about possible KPI's (i.e. key performance indicator).
 - Speculate how they can be measured.
 
 ### **1.3 The Rat Factory**
-Using your input for the previous exercise, your task is:
+```
+In 1902, in Vietnam, the colonial government created a bounty program that paid a reward for each rat killed. Vietnamese rat catchers quickly realized breeding rats was easier and profitable than catching them. 
+```
+
+What you just read is an example of a perverse incentive (also known as cobra effect). Using your input for the previous exercise, your task is:
 
 - Think how an employee could exploit these KPI's.
 - Explore scenarios where it can be counter-productive.
@@ -42,16 +46,20 @@ Using your input for the previous exercise, your task is:
 </details>
 
 <details>
-  <summary><h2>Lecture 2</h2></summary>
+  <summary>Lecture 2</summary>
 
 ### **2.0 Spreadsheet Galore**
-Imagine your organization wants to store operational data in a spreadsheet (e.g. Excel). Do you think this is a good idea or not?
+Imagine your organization wants to store operational data in a spreadsheet (e.g. Excel). 
+
+1. Do you think this is a good idea or not? 
+2. What can go wrong?
+3. Can you mitigate some of these issues by using the cloud version (e.g. Google Sheets)?
 
 ### **2.1 Types Flat Files**
 
-1. Google the differences between a `csv file`, a `JSON file`, and a `parquet file`. 
+1. Google the differences between a `csv file`, a `JSON file`, and a `parquet file`. Research them enough to understand when it is a good idea to use one over the other.
 
-2. Copy the text below into `Notepad` and save it as `cars.csv`
+2. Copy the text below into `Notepad` (or any text editor) and save it as `cars.csv`
 
 ```
 Year,Make,Model
@@ -96,7 +104,7 @@ Note: As you might have infered, `%20` is [HTML URL Encoding](https://www.w3scho
 
 5. Either create an account (you might be using this site more in the future) or use the following credentials to sign in:
 
-- Username: @hc-analyzing-data
+- Username: hc-analyzing-data
 - Password: analyzing-data
 
 5. Look for the `Open in app` button. The one with the three empty squares and the diamond at the top right of the dataset.
