@@ -114,3 +114,87 @@ Note: As you might have infered, `%20` is [HTML URL Encoding](https://www.w3scho
 6. Follow the instructions and open it as a Web Data Connector in Tableau.
 
 </details>
+
+<details>
+  <summary>Lecture 3</summary>
+
+### **3.0 What is wrong with this data?**
+Your objective is to create a file with how this data is supposed to look once it is clean. It is ok if you don't know the name of the steps. For now, just think of how the clean dataset will look like.
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">name</th>
+<th title="Field #2">job</th>
+<th title="Field #3">age</th>
+<th title="Field #4">salary 2020</th>
+<th title="Field #5">salary 2021</th>
+</tr></thead>
+<tbody><tr>
+<td>john</td>
+<td> </td>
+<td> 21 years</td>
+<td align="right"> 0</td>
+<td align="right"> 1000</td>
+</tr>
+<tr>
+<td>JANE JOHNSON</td>
+<td> analyst</td>
+<td> 24</td>
+<td align="right"> $3500</td>
+<td align="right"> $4000</td>
+</tr>
+<tr>
+<td>Charlie</td>
+<td> chef</td>
+<td> fourty</td>
+<td align="right"> 30000</td>
+<td align="right"> 32000</td>
+</tr>
+</tbody></table>
+
+### **3.1 Cleaning a real-world data**
+
+You are going to be exploring and cleaning a real-world dataset here. All of the data comes from a real survey with thousands of participants.
+
+1. Check the [survey](https://www.askamanager.org/2021/04/how-much-money-do-you-make-4.html) and spot questions that might lead to data quality issues.
+
+2. Check the [answers](https://docs.google.com/spreadsheets/d/1IPS5dBSGtwYVbjsfbaMCYIWnOuRmJcbequohNxCyGVw/edit?resourcekey#gid=1625408792). Were you assumptions about the last question correct?
+
+3. Think what type of cleaning is needed to answer the following question: What is the average salary per race?
+
+4. Think of which rows you should filter. What to do with empty rows, with people outside of the US, people with no salary, duplicates or partial duplicates, and salaries that seem either too high or too low. This is not a science, it is a matter of judgement.
+
+5. Try to standarize the salary. Think of what to do with the column containing `Other monetary comp` and how you can turn other currencies into dollars (or whatever other currency you prefer).
+
+6. Look at the `Country` column. How are you going to standarize it? Here is a rule of thumb, if you are cleaning:
+
+- < 3 values: Use [logical formulas] like `IF` or `CASE` (https://help.tableau.com/current/pro/desktop/en-us/functions_functions_logical.htm).
+
+- < 20 values: [Use Groups in Tableau](https://www.guru99.com/tableau-sort-data.html). It is a manual option, but it is much better for performance.
+
+- 20+ values: Create a new table (or spreadsheet) with 2 columns. One containing all of the unique values currently in the dataset and a second column with the clean value (your table should look like the one below). Once you are done, join both tables and only keep the correct one.
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Raw</th>
+<th title="Field #2">Clean</th>
+</tr></thead>
+<tbody><tr>
+<td>US</td>
+<td> United States</td>
+</tr>
+<tr>
+<td>USA</td>
+<td> United States</td>
+</tr>
+<tr>
+<td>U.S.A.</td>
+<td> United States</td>
+</tr>
+<tr>
+<td>United States</td>
+<td> United States</td>
+</tr>
+<tr>
+<td>America</td>
+<td> United States</td>
+</tr>
+</tbody></table>
