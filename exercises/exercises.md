@@ -167,11 +167,9 @@ You are going to be exploring and cleaning a real-world dataset here. All of the
 
 6. Look at the `Country` column. How are you going to standarize it? Here is a rule of thumb, if you are cleaning:
 
-- < 3 values: Use [logical formulas] like `IF` or `CASE` (https://help.tableau.com/current/pro/desktop/en-us/functions_functions_logical.htm).
+- < 10 values: Use [logical formulas](https://help.tableau.com/current/pro/desktop/en-us/functions_functions_logical.htm)  like `IF` and `CASE` or [use Groups in Tableau](https://www.guru99.com/tableau-sort-data.html). It is a manual option, but it is much better for performance.
 
-- < 20 values: [Use Groups in Tableau](https://www.guru99.com/tableau-sort-data.html). It is a manual option, but it is much better for performance.
-
-- 20+ values: Create a new table (or spreadsheet) with 2 columns. One containing all of the unique values currently in the dataset and a second column with the clean value (your table should look like the one below). Once you are done, join both tables and only keep the correct one.
+- 10+ values: Create a new table (or spreadsheet) with 2 columns. One containing all of the unique values currently in the dataset and a second column with the clean value (your table should look like the one below). Once you are done, join both tables and only keep the correct one.
 
 <table class="table table-bordered table-hover table-condensed">
 <thead><tr><th title="Field #1">Raw</th>
@@ -198,3 +196,98 @@ You are going to be exploring and cleaning a real-world dataset here. All of the
 <td> United States</td>
 </tr>
 </tbody></table>
+
+
+### **3.2 The Next Birthday?**
+Your company wants a dashboard that shows what birthdays or anniversaries are coming up this month. The data looks something like this:
+
+```
+employee_id, birthday, anniversary
+1, 10 April, 15 October
+2, 1 January, 1 December
+3, 7 September, 1 November
+4, 22 July, 1 July
+```
+
+1. Copy and paste this dataset into Tableau. [Here is a tutorial on how to do it](https://www.thedataschool.co.uk/jonathan-allenby/tableau-tip-you-can-paste-data-directly-into-tableau). Make sure the data is imported correctly (commas as separators).
+
+2. Find a way to clean the dates. You were provided a day and a month, but the year is missing. If you just [change the data type to date](https://help.tableau.com/current/pro/desktop/en-us/datafields_typesandroles_datatypes.htm), Tableau will infer the year 1900.
+
+3. You don't need to do this, but there are some advantages in [pivoting](https://help.tableau.com/current/pro/desktop/en-us/pivot.htm) both of the date columns (i.e. anniversary and birthday). Why don't you try creating a dataset that looks like this:
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">employee_id</th>
+<th title="Field #2">event_type</th>
+<th title="Field #3">date</th>
+</tr></thead>
+<tbody><tr>
+<td align="right">1</td>
+<td> birthday</td>
+<td> 10 April</td>
+</tr>
+<tr>
+<td align="right">1</td>
+<td>  anniversary</td>
+<td> 15 October</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td> birthday</td>
+<td> 1 January</td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td>  anniversary</td>
+<td> 1 December</td>
+</tr>
+</tbody></table>
+
+4. Try to calculate when will be the next birthday or anniversary. A big part of the job of an analyst is to Google these types of things, so I would advise you to do that instead of peaking at the hints. 
+
+  <details>
+  <summary>Here is a hint.</summary>
+
+If the date hasn't happened yet this year, then the right year is `YEAR(TODAY())`. If the date happened already, the right year is `YEAR(TODAY()) + 1`. 
+
+The result that you requires the following ingredients: `MAKEDATE()`, `YEAR()`, `TODAY()`, `IIF()`.
+
+In case you are wondering, `IIF()` is short for Intermediate IF. While in a normal `IF` statement you can add as many conditions as you want, `IIF()` only accepts one clause. In plain English, if something then this, otherwise that. 
+
+  </details>
+
+  <details>
+  <summary>Fine, here is the answer.</summary>
+
+You need two formulas, one that calculates the date this year. It will look something like this:
+
+```
+MAKEDATE( 
+  YEAR(TODAY()), 
+  MONTH([Date]),
+  DAY([Date])
+)
+```
+
+The second formula is the date next year. 
+
+```
+MAKEDATE( 
+  YEAR(TODAY()) + 1, 
+  MONTH([Date]),
+  DAY([Date])
+)
+```
+
+The final formula compares if the date has already happened. 
+
+For this one, I assume you called the first formulas `Date This Year` and then second formula `Date Next Year`. This won't work if you gave the formulas a different name.
+
+```
+IIF(
+  [Date This Year] > TODAY(),
+  [Date This Year],
+  [Date Next Year]
+)
+```
+
+  </details>
