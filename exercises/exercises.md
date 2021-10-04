@@ -199,7 +199,7 @@ You are going to be exploring and cleaning a real-world dataset here. All of the
 
 
 ### **3.2 The Next Birthday?**
-Your company wants a dashboard that shows what birthdays or anniversaries are coming up this month. The data looks something like this:
+Your company wants a dashboard that shows how many days until the next birthdays or anniversaries. The data looks something like this:
 
 ```
 employee_id, birthday, anniversary
@@ -244,8 +244,8 @@ employee_id, birthday, anniversary
 
 4. Try to calculate when will be the next birthday or anniversary. A big part of the job of an analyst is to Google these types of things, so I would advise you to do that instead of peaking at the hints. 
 
-  <details>
-  <summary>Here is a hint.</summary>
+<details>
+<summary>Here is a hint.</summary>
 
 If the date hasn't happened yet this year, then the right year is `YEAR(TODAY())`. If the date happened already, the right year is `YEAR(TODAY()) + 1`. 
 
@@ -289,5 +289,19 @@ IIF(
   [Date Next Year]
 )
 ```
+</details>
 
-  </details>
+5. Now use `TODAY()` and the formula you calculated in step 4 and find out how many days left before the next important dates.
+
+<details>
+  <summary> Fine, here is the answer </summary>
+  
+  ```
+  DATEDIFF(
+    'day',
+    [Date Next Year],
+    TODAY()
+  )
+  ```
+
+6. Filter to include only the top 5 events. [Check TOPN filters](https://playfairdata.com/how-to-use-index-for-easier-top-n-tableau-filters/).
