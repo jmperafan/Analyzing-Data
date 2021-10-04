@@ -281,11 +281,12 @@ This document contains every exercise we will be conducting during the lectures.
 
   <details>
     <summary>Here is a hint.</summary>
-    If the date hasn't happened yet this year, then the right year is `YEAR(TODAY())`. If the date happened already, the right year is `YEAR(TODAY()) + 1`. 
+    
+  If the date hasn't happened yet this year, then the right year is `YEAR(TODAY())`. If the date happened already, the right year is `YEAR(TODAY()) + 1`. 
 
-    The result that you requires the following ingredients: `MAKEDATE()`, `YEAR()`, `TODAY()`, `IIF()`.
+  The result that you requires the following ingredients: `MAKEDATE()`, `YEAR()`, `TODAY()`, `IIF()`.
 
-    In case you are wondering, `IIF()` is short for Intermediate IF. While in a normal `IF` statement you can add as many conditions as you want, `IIF()` only accepts one clause. In plain English, if something then this, otherwise that. 
+  In case you are wondering, `IIF()` is short for Intermediate IF. While in a normal `IF` statement you can add as many conditions as you want, `IIF()` only accepts one clause. In plain English, if something then this, otherwise that. 
   </details>
 
   <details>
@@ -329,7 +330,7 @@ This document contains every exercise we will be conducting during the lectures.
   5. Now use `TODAY()` and the formula you calculated in step 4 and find out how many days left before the next important dates.
 
   <details>
-    <summary> Fine, here is the answer </summary>
+    <summary> Fine, here is the answer. </summary>
     
     ```
     DATEDIFF(
