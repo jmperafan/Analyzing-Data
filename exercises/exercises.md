@@ -229,6 +229,7 @@ This document contains every exercise we will be conducting during the lectures.
   <br></br>
 
   ### **3.2 The Next Birthday?**
+
   Your company wants a dashboard that shows how many days until the next birthdays or anniversaries. The data looks something like this:
 
   ```
@@ -344,5 +345,26 @@ This document contains every exercise we will be conducting during the lectures.
   <pr></pr>
 
   6. Filter to include only the top 5 events. [Check TOPN filters](https://playfairdata.com/how-to-use-index-for-easier-top-n-tableau-filters/).
+
+  <br></br>
+
+  ### **3.3 Putting Data Together**
+
+  Data often needs to combined. In this exercise you will do two of the most common transformations supported by Tableau (i.e. union and relationship). Please note that Tableau also supports [joins](https://help.tableau.com/current/pro/desktop/en-us/joining_tables.htm) and [blending](https://help.tableau.com/current/pro/desktop/en-us/multiple_connections.htm), but we will not cover them during these class. 
+
+  1. Check the [AdventureWorks dataset](https://github.com/jmperafan/analyzing-data/tree/master/datasets/Adventure%20Works). 
+
+  2. Download the following files into your computer:
+  - AdventureWorks_Sales_2015.csv
+  - AdventureWorks_Sales_2016.csv
+  - AdventureWorks_Sales_2017.csv
+  - AdventureWorks_Customers.csv
+  - AdventureWorks_Products.csv
+
+  3. Open any of them in Tableau. Note how there is an option to your left with all of the files in this folder. 
+
+  4. Add a [wildcard union](https://help.tableau.com/current/pro/desktop/en-us/union.htm). Use `AdventureWorks_Sales__*` as the wild card. This will grab all of the sales files in the folder and ignore the other ones. You can make your wild cards more or less strict. It is a matter of judgement if `*Sales*` is good enough. Or if you need something more strict like `AdventureWorks_Sales__20*`.
+
+  5. Create a [relationship](https://help.tableau.com/current/pro/desktop/en-us/relate_tables.htm) between the big table containing all of the sales the other tables. Namely, Products and Customers. Tableau will find the linking fields automatically for you, but it is not a bad idea to check if it is correct.
 
 </details>
