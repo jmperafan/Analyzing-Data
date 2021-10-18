@@ -38,10 +38,8 @@ This document contains every exercise we will be conducting during the lectures.
   <br></br>
 
   ### **1.3 The Rat Factory**
-  
-  ```
-  In 1902, in Vietnam, the colonial government created a bounty program that paid a reward for each rat killed. Vietnamese rat catchers quickly realized breeding rats was easier and profitable than catching them. 
-  ```
+
+  In 1902, in Vietnam, the colonial government created a bounty program that paid a reward for each rat killed. Vietnamese rat catchers quickly realized breeding rats was easier and profitable than catching them.
 
   What you just read is an example of a perverse incentive (also known as cobra effect). Using your input for the previous exercise, your task is:
 
@@ -410,18 +408,22 @@ This document contains every exercise we will be conducting during the lectures.
   For the nummeric columns, you should check how different sets of columns are related. For example, what is the relationship between columns like `sales` and `profit`? Out of this exercise, you should be able to make statements like 
 
   ```
-  Profit is inversely related to discount rates. The more discount we give, the less profit we make.
+  Profit is inversely related to discount rates. 
+  The more discount we give, the less profit we make.
   ```
   or 
   ```
-  Stress has a curvilinear relationship to productivity. Some stress leads to more work produced. But we can reach a point when stress becomes a block to productivity.
+  Stress has a curvilinear relationship to productivity. Some stress leads to more work produced. 
+  But we can reach a point when stress becomes a block to productivity.
   ```
   
   6. 
   *Is this a global phenomenon?* Once you have found interesting relationships in your data, try slicing the data to see if patterns are still present in different groups and moments in time. Some example questions could look like:
 
   ```
-  Is this product rated equally well in all regions? Do men and women like it equally? Has it always been the case over time?
+  Is this product rated equally in all regions? 
+  Do men and women like it equally? 
+  Has it always been the case over time?
   ```
   Domain expertise really comes handy at this stage. It is only your knowledge of the situation and your business expertise that leads to the best questions. For example, if you are know a lot about finance, you will probably know already some of the most obvious things you will find in data and you will also know what questions are interesting and have potential value to the company.
 
