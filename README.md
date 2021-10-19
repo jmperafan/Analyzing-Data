@@ -104,9 +104,9 @@ For your final assignment, you will need to create a dashboard or infographic. D
    <ol>
    <li><b>Make it personal</b>: Websites like Netflix, Facebook, LinkedIn, YouTube, and Google allow you to extract your own data.</li>
    <li><b>Collect the data yourself</b>: Measure things like your daily commute, the time you spent at the ACLO, how much beer you drank.</li>
-   <li><b>Use public data</b>: Pages like [MakeOverMonday](https://www.makeovermonday.co.uk/) or [Maven Analytics](https://www.mavenanalytics.io/data-playground) contain hundreds of datasets suitable for visualizing.</li>
+   <li><b>Use public data</b>: Pages like <a href="https://www.makeovermonday.co.uk/">MakeOverMonday</a> or <a href="https://www.mavenanalytics.io/data-playground">Maven Analytics</a> contain hundreds of datasets suitable for visualizing.</li>
 </details>
-  
+
 <details>
    <summary>Guidelines</summary>
    To determine who is the best, each assignment will be rated in these categories (in alphabetical order):
