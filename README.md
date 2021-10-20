@@ -30,37 +30,38 @@ Combining theory and practice, this course will teach you the basics of analyzin
 <details>
    <summary>21 Sep - Introduction to Analytics</summary>
    <h3>Description</h3>
-   This session will set the theoretical basis for the session to come. By the end, every student should have an understanding of data concepts (e.g. analytics) and some of the common challenges that organizations face (e.g. lack of data literacy, data quality issues). Additionally, we will introduce [Tableau](https://www.tableau.com/) and explain the final assignment. 
+   This session will set the theoretical basis for the session to come. By the end, every student should have an understanding of data concepts (e.g. analytics) and some of the common challenges that organizations face (e.g. lack of data literacy, data quality issues). Additionally, we will introduce <a href="https://www.tableau.com/">Tableau</a> and explain the final assignment. 
+ 
    <h3>Learning Goals</h3>
    <ul>
       <li>Gain a conceptual understanding of data and analytics.</li>
       <li>Learn the most common career paths for data professionals.</li>
       <li>Be exposed to some of the common data challenges in organizations.</li>
-      <li>Become acquainted with [Tableau](https://www.tableau.com/).</li>
+      <li>Become acquainted with <a href="https://www.tableau.com/">Tableau</a>.</li>
    </ul>
 </details>
   
 <details>
    <summary>28 Sep - Storing & Extracting Data</summary>
    <h3>Description</h3>
-   Storing and extracting data is generally overlooked. It is not a very sexy topic. But the truth is that data is rarely delivered to you on a golden platter. You need to go and find it. In this session, we will compare different types of datasources (e.g. data lakes, data warehouses, APIs). In the end, students will get to practice extracting data from different data sources using [Tableau](https://www.tableau.com/).
+   Storing and extracting data is generally overlooked. It is not a very sexy topic. But the truth is that data is rarely delivered to you on a golden platter. You need to go and find it. In this session, we will compare different types of datasources (e.g. data lakes, data warehouses, APIs). In the end, students will get to practice extracting data from different data sources using <a href="https://www.tableau.com/">Tableau</a>.
    <h3>Learning Goals</h3>
    <ul>
    <li>Exposure to the most common data storage ecosystems.</li>
    <li>Learn the most common challenges around ingestion, storage, and extraction of data.</li>
-   <li>Practice loading different types of datasources in [Tableau](https://www.tableau.com/).</li>
+   <li>Practice loading different types of datasources in <a href="https://www.tableau.com/">Tableau</a>.</li>
    <ul>
 </details>
      
 <details>
    <summary>05 Oct - Cleaning & Transforming Data</summary>
    <h3>Description</h3>
-   Cleaning and transforming data is an essential part of any analysis. During this session we will discuss "tidy data" principles and practice some of the common data cleaning steps (e.g. filters, pivoting, selecting columns) in [Tableau](https://www.tableau.com/).
+   Cleaning and transforming data is an essential part of any analysis. During this session we will discuss "tidy data" principles and practice some of the common data cleaning steps (e.g. filters, pivoting, selecting columns) in <a href="https://www.tableau.com/">Tableau</a>.
    <h3>Learning Goals</h3>
    <ul>
       <li>Learn the principles of tidy data.</li>
       <li>Be familiar with some common data transformations.</li>
-      <li>Practice cleaning data and using formulas in [Tableau](https://www.tableau.com/).</li>
+      <li>Practice cleaning data and using formulas in <a href="https://www.tableau.com/">Tableau</a>.</li>
    </ul>
 </details>
      
@@ -71,7 +72,7 @@ Combining theory and practice, this course will teach you the basics of analyzin
    <h3>Learning Goals</h3>
    <ul>
       <li>Exposure to some techniques to explore data.</li>
-      <li>Practice EDA with [Tableau](https://www.tableau.com/).</li>
+      <li>Practice EDA with <a href="https://www.tableau.com/">Tableau</a>.</li>
    </ul>
 </details>
      
@@ -82,7 +83,7 @@ Combining theory and practice, this course will teach you the basics of analyzin
    <h3>Learning Goals</h3>
    <ul>
       <li>Explore common visualization types.</li>
-      <li>Learn how to format visuals using [Tableau](https://www.tableau.com/).</li>
+      <li>Learn how to format visuals using <a href="https://www.tableau.com/">Tableau</a>.</li>
       <li>Grasp the basics of Data Storytelling.</li>
    </ul>
 </details>
